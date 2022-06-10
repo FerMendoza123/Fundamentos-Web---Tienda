@@ -1,0 +1,14 @@
+
+#producto
+{
+    flex-flow: column;
+    justify-content: center;
+}
+    #imagen
+    {
+        width: 100%;
+    }
+    #datosI
+    {
+        width: 100%;
+    }

@@ -1,0 +1,138 @@
+/*General*/
+body 
+{
+    margin: 0px;
+}
+/*General*/
+
+
+#encabezado
+{
+    font-family: poppins,sans-serif;
+/*General*/
+    position: absolute;
+    width: 100%;
+    z-index: 30;
+/*General*/
+    height: 100px;
+    display: flex;
+    
+}
+
+    #logo
+    {
+    /*General*/
+        box-sizing: border-box;
+        float: left;
+        background-color:darkslateblue;
+    /*General*/
+        width: 5%;
+        height: 100%;
+    }
+
+    #barraMedia
+    {
+    /*General*/
+        border: 1px solid blue;
+        justify-content: center;
+    /*General*/
+        width: 40%;
+        height: 100%;/*<--*/
+        display:flex;
+        
+        margin:auto;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+
+    /*General   Estilos de la barra de busqueda*/
+    #barraMedia form
+    {
+        margin-top: 10px;
+        background-color: blue;
+    }
+
+    /*Barra de navegación*/
+    #menuNav
+    {
+        border: 1px solid blue;
+        margin-top: 30px;
+        width: 100%;
+        height: 30px;   
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    
+    /*General*/
+    #menuNav a
+    {
+        margin: 3px;
+        text-decoration: none;
+    }
+
+    /*Estilos para los iconos de la parte lateral derecha*/
+    
+    #espacioIconos
+    {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 2px solid red;
+        /*margin-left: 3%;
+        margin-top: 2%;*/
+        width: 200px;
+        height: 100%;
+        padding-top: 3%;
+    }
+
+        #espacioIconos a
+        {
+            font-size: 1.5em;
+            color: white;
+            margin-left: 16%;
+            
+        }
+        #espacioIconos a:hover
+        {
+            color: gray;
+        }
+
+        #subMenuC
+        {
+            display: none;
+            width: 90%;
+        }
+
+        #subMenuC a
+        {
+            text-decoration: none;
+            color: black;
+            font-size: 1em;
+            background-color: white;
+            border: 1px solid black;
+            display: block;
+        }
+        #subMenuC a:hover
+        {
+            background-color: gray;
+            color: white;
+        }
+
+#difuminado
+{
+    background-color: black;
+    opacity: 20%;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    z-index: 20;
+}
+
+#slide1
+{
+    background-image: url("huaraches.jpg");
+    /*La imagen no se muestra si no hay dimensiones
+    /*width: 100%;
+    height:800px;*/
+    background-color: gray;
+}

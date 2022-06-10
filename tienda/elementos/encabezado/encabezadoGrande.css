@@ -1,0 +1,53 @@
+#encabezado
+{
+    height: 100px;
+    
+}
+
+    #logo
+    {
+        width: 200px;
+        height: 100%;
+    }
+
+
+
+    #seccionMedia
+    {
+        height: 100%;
+    }
+
+        
+
+
+
+    #espacioIconos
+    {
+        /*margin-left: 3%;
+        margin-top: 2%;*/
+        height: 100%;
+    }
+
+
+
+#menuSlider
+{	
+    text-align:center;
+}
+#menuSlider a
+{
+    width:100px;
+    height:100px;
+    background-color:black;
+    color: white;
+    padding-left:50px;
+    padding-right:50px;
+    text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+#menuSlider a:hover
+{
+    background-color:#FF6600;
+}

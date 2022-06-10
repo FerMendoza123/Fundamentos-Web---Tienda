@@ -1,0 +1,61 @@
+
+#encabezado
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}    
+    #logo
+    {
+        width: 200px;
+        height: 100px;
+    }
+
+    #seccionMedia
+    {
+        position: absolute;
+        top: 100px;
+        justify-content: center;
+        width:100%;
+        height: 100%;
+    }
+
+    #espacioIconos
+    {
+        display: inline-block;
+
+        height: 100px;
+    }
+
+#difuminado
+{
+    position: relative;
+    height: 200px;
+    opacity: 100%;
+}
+
+
+#menuSlider
+{	
+    text-align:center;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+#menuSlider a
+{
+    background-color:black;
+    color: white;
+    width: 80px;
+    text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+#menuSlider a:hover
+{
+    background-color:#FF6600;
+}

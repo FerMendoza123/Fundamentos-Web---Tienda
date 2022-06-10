@@ -1,0 +1,142 @@
+
+body {
+    margin:0px;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+
+#encabezado{
+    font-family: poppins,sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    #logo
+    {
+        box-sizing: border-box;
+        color: white;
+    }
+
+    
+    #seccionMedia 
+    {
+        width: 50%;
+        /*border: 1px solid yellow;*/
+    }
+
+
+        #seccionMedia form
+        {
+            margin-top: 10px;
+            padding: auto;
+        }
+
+        #menuNav
+        {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-around;
+        }
+        #menuNav .liga
+        {
+            text-align: center;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+        #menuNav .liga:hover
+        {
+            background-color:#FF6600;
+        }
+
+    #espacioIconos
+    {
+        box-sizing: border-box;
+        width: 200px;
+        padding-top: 50px;
+    }
+
+        #espacioIconos a
+        {
+            box-sizing: border-box;
+            font-size: 1.5em;
+            color: white;
+        }
+        #carrito
+        {
+            margin-left: 16%;
+        }
+        #espacioIconos a:hover
+        {
+            color: gray;
+        }
+
+        #subMenuC
+        {
+            position: fixed;
+            display: flex;
+            flex-flow: column;
+            overflow: hidden;
+            visibility: hidden;
+            width: 200px;
+            border-radius: 15px;
+            border:1px solid gray;
+            
+            text-align: center;
+        }
+
+        #subMenuC p
+        {
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 1px solid gray;
+        }
+
+        #subMenuC a ,#subMenuC p
+        {
+            margin: 0px;
+            position: relative;
+            text-decoration: none;
+            color: black;
+            font-size: 1em;
+            background-color: white;
+            z-index:0;
+            padding: 3%;
+        }
+        #subMenuC a:hover
+        {
+            background-color: gray;
+            color: white;
+        }
+        
+
+#difuminado
+{
+    box-sizing: border-box;
+    background-color: black;
+    position: absolute;
+    opacity: 20%;
+    width: 100%;
+    height: 100px;
+    z-index: 20;
+}
+
+
+
+
+#footer
+{
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0px;
+}

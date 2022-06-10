@@ -1,0 +1,136 @@
+.contenidoPagina/*Sección de contenido de esta pagina */
+{
+    margin:5%;
+    font-family: poppins,sans-serif;
+    min-height: 270px;
+}
+
+.formulario/*Contenedor de los datos a modificar*/
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .h /*Titulos de las subsecciones de datos*/
+{
+    width:40%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/*Titulos de las subsecciones de datos*/  /*Etiqueta con nombre y campo para poder configurar */
+/*.formulario .p, .campo, .liga, */
+.p, .campo, .liga, .campoC{
+    width:40%;
+    margin: 1% auto;
+    color: rgb(110,110,110);
+}
+
+
+.campo input
+{
+    box-sizing: border-box; /*Los atributos no afectaran el tamaño de la caja*/
+    width: 100%;
+    padding:10px;
+    border-radius: 15px;
+    border:1px solid rgb(200,200,200);
+}
+
+
+.oculto
+{
+    visibility:hidden;
+    display: none;
+}
+
+.liga
+{
+    text-decoration: none;
+}
+
+.liga:hover
+{
+    color:#FF6600;
+}
+
+.enviar
+{
+    width:80px;
+    margin:auto;
+    padding:10px;
+    border-radius:15px;
+    
+    background-color:black;
+    color:white;
+}
+.enviar:hover
+{
+    background-color:#FF6600;
+}
+
+
+
+
+.campoB /*Div con campo y boton*/
+{
+    width: 50%;
+    margin: auto;
+    color: rgb(110,110,110);
+}
+.campoB div
+{
+    display: flex;
+}
+.campoB .texto
+{
+    box-sizing: border-box; /*Los atributos no afectaran el tamaño de la caja*/
+    width: 100%;
+    padding:10px;
+    border-radius: 15px 0px 0px 15px;
+    border:1px solid rgb(200,200,200);
+}
+
+.campoB .enviar
+{
+    border-radius: 0px 15px 15px 0px;
+}
+
+.pError
+{
+    background-color: rgba(255, 0, 0, .5);
+}
+
+.pCorrecto
+{
+    background-color: rgba(0, 255, 0, .5);
+}
+
+.confirmacion 
+{
+    position: fixed;
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1px solid gray;
+    display: none;
+}
+
+.confirmacion p, .confirmacion div
+{
+    font-family: sans-serif;
+    width: fit-content;
+    margin: auto;
+}
+
+.confirmacion p
+{
+    text-align: center;
+}

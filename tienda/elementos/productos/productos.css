@@ -1,0 +1,206 @@
+*body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.contenidoPagina
+{
+    border: 1px solid black;
+}*/
+
+
+#producto, #comentarios, #filtrado, #productos
+{
+    border-radius: 15px;
+    border: 1px dotted black;
+    background-color:rgb(226, 226, 226);
+}
+
+#producto, #comentarios
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+    #imagen
+    {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+       width: 50%;
+    }
+    #imagen img
+    {
+        
+        width: 90%;
+        margin: auto;
+        margin-top: auto;
+        padding-left: 5%;
+    }
+
+    #datosI
+    {
+        display: block;
+        box-sizing: border-box;
+        /*border: 1px solid yellow;
+        background-color: tomato;*/
+        width: 50%;
+        padding-left: 1%;
+    }
+
+        #datosI h4
+        {
+            text-align: center;
+            font-size: 1.2em;
+            text-transform: capitalize;
+        }
+
+        #precio
+        {
+            font-size: 1.3em;
+        }
+        #descripcion
+        {
+            font-size: .8em;
+        }
+
+        #ingrediente
+        {
+            border-radius: 15px;
+        }
+
+        #ingrediente
+        {
+            display: block;
+            height: 30px;
+            background-color: white;
+        }
+
+        #cantidad
+        {
+            display:  block;
+            margin-right: auto;
+            width: 40px;
+            height: 30px;
+        }
+        
+        #botones
+        {
+            width: 100%;
+        }
+
+        .links
+        {
+            width: 100%;
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
+            justify-content:left;
+        }
+            .links .enviar
+            {
+                margin: 0px;
+                margin-right: 2%;
+                margin-bottom: 5px;
+                text-decoration: none;
+                font-size: .9em;
+                text-align: center;
+                width: auto;
+            }
+            .links .liga
+            {
+                margin: 3px;
+                width: auto;
+            }
+            
+        .links, #cantidad, #ingrediente, #precio, #descripcion
+        {
+            /*margin-top: 30px;*/
+            margin-top: 6%;
+        }
+
+#comentarios
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#subtitulo
+{
+    margin: 2% auto;
+}
+hr
+{
+    width: 100%;
+}
+
+
+    #comentar
+    {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .textoC
+    {
+        border-radius: 15px;
+        height: 50px;
+        width: 100%;
+    }
+
+    /*
+    .comentario
+    {
+        border-color: blue;
+        border-width: 1px;
+        border-style: dotted;
+    }*/
+
+        .opciones
+        {
+            float: right;
+        }
+
+
+
+
+#filtrado
+{
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+#productos
+{
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    float: left;
+    width: 80%;
+    height: fit-content;
+}
+
+.producto
+{
+    width: 250px;
+    height: fit-content;
+    margin-bottom: 0px;
+    margin-top: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.producto img
+{
+    width: 200px;
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+.seccion
+{
+    width: 70%;
+    margin:auto;
+    /*border:1px solid blue;*/
+    box-sizing: border-box;
+    background-color:rgb(226, 226, 226);
+    border: 1px dotted black;
+    border-radius: 15px;
+}
+
+.datosLiga
+{
+    display: flex;
+    margin: 1%;
+    justify-content: space-between;    
+}
+
+.datos
+{
+    width: 90%;
+}
+.datos h4
+{
+    margin: 0px;
+}
+.datosLiga p
+{
+    margin: 0px;
+}

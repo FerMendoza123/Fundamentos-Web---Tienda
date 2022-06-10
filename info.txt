@@ -1,0 +1,11 @@
+Nombre: Mendoza Rodríguez Fernando
+Nombre del proyecto: Página web para un restaurante local con entrega a domicilio
+Fecha de inicio: 4 de mayo 2020
+Fecha de entrega: 11 de junio 2020
+Carrera: Ingenieria en Sistemas Inteligentes
+Semestre: 6°
+Usuario BD: "root"
+Password BD: ""
+Usuario Admin: "nuevo3" 
+Password Admin: "contra"
+
